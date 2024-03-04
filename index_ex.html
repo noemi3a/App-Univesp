@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        /* Estilize o campo de busca conforme necessário */
+        input[type="text"] {
+            padding: 8px;
+            width: 200px;
+        }
+
+        /* Estilize os itens do menu conforme necessário */
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Estilize o link ativo */
+        nav a.active {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minha Página</h1>
+</header>
+
+<nav>
+    <a href="#" class="active">Buscar</a>
+    <a href="#cronograma">Cronograma</a>
+    <a href="#notas">Notas</a>
+    <a href="#atividades">Atividades</a>
+</nav>
+
+<section id="buscar">
+    <h2>Buscar</h2>
+    <label for="search">Digite sua busca:</label>
+    <input type="text" id="search" name="search">
+    <!-- Conteúdo relacionado à busca aqui -->
+</section>
+
+<section id="cronograma">
+    <h2>Cronograma</h2>
+    <!-- Conteúdo relacionado ao cronograma aqui -->
+</section>
+
+<section id="notas">
+    <h2>Notas</h2>
+    <!-- Conteúdo relacionado às notas aqui -->
+</section>
+
+<section id="atividades">
+    <h2>Atividades</h2>
+    <!-- Conteúdo relacionado às atividades aqui -->
+</section>
+
+</body>
+</html>
