@@ -51,3 +51,16 @@ nav a.active {
 /*.sidebar nav ul li a:hover {
     color: #ffffff;
 }*/
+.videos__container {
+    display: flex;
+    flex-wrap: wrap; /* Quebra a linha quando não houver mais espaço */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+    gap: 50px;
+    justify-items: center;
+}
+  
+  .videos__row {
+    display: flex;
+    width: 100%; /* Garante que as linhas ocupem toda a largura disponível */
+  }
